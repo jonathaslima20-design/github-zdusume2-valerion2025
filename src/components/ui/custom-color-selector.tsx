@@ -32,7 +32,7 @@ export function CustomColorSelector({
   value = [],
   onChange,
   userId,
-  maxColors = 10
+  maxColors = 100
 }: CustomColorSelectorProps) {
   const [showAddDialog, setShowAddDialog] = useState(false);
   const [newColorName, setNewColorName] = useState('');
